@@ -9,7 +9,7 @@ import (
 func main() {
 	r := server.NewRouter()
 
-	if err := http.ListenAndServe(":3000", r); err != nil {
+	if err := http.ListenAndServe(":8080", r); err != nil {
 		log.Fatal("Unable to start Server", err)
 	}
 }

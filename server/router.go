@@ -1,9 +1,10 @@
 package server
 
 import (
+	"github.com/R3l3ntl3ss/Jot/controllers/notes"
+	"github.com/R3l3ntl3ss/Jot/mongo"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
-	"net/http"
 )
 
 func NewRouter() *chi.Mux {
@@ -11,9 +12,18 @@ func NewRouter() *chi.Mux {
 	r := chi.NewRouter()
 
 	r.Use(middleware.Logger)
+	r.Use(middleware.Recoverer)
 
-	r.Get("/", func(w http.ResponseWriter, r *http.Request) {
-		w.Write([]byte("Hello, World!"))
+	db := &mongo.Mongo{}
+	db.Init()
+
+	r.Route("/notes", func(r chi.Router) {
+
+		n := notes.Controller{
+			M: db,
+		}
+
+		r.Get("/", n.GetAllNotes)
 	})
 
 	return r
