@@ -10,16 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f22ffd9d-f6bd-4b73-bb16-f8e75c1902a6" name="Default Changelist" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/controllers/notes/getNotes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/notes/notes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/notes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongo/getNotes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongo/mongo.go" afterDir="false" />
+    <list default="true" id="f22ffd9d-f6bd-4b73-bb16-f8e75c1902a6" name="Default Changelist" comment="Added GetAllNotes Route">
+      <change afterPath="$PROJECT_DIR$/controllers/notes/saveNote.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/requests.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/router.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +33,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1d5HtLj3tr4B3eXJNZoTqQE5Xid" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -76,7 +72,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Added GetAllNotes Route" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added GetAllNotes Route" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
