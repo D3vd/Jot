@@ -10,11 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f22ffd9d-f6bd-4b73-bb16-f8e75c1902a6" name="Default Changelist" comment="Added GetAllNotes Route">
-      <change afterPath="$PROJECT_DIR$/controllers/notes/saveNote.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/requests.go" afterDir="false" />
+    <list default="true" id="f22ffd9d-f6bd-4b73-bb16-f8e75c1902a6" name="Default Changelist" comment="Added Save Note Route">
+      <change afterPath="$PROJECT_DIR$/models/response.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongo/saveNote.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/notes/saveNote.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/notes/saveNote.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Added GetAllNotes Route" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added GetAllNotes Route" />
+    <MESSAGE value="Added Save Note Route" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Save Note Route" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -87,6 +88,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="559" y="280" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1591710163201" />
+    <state x="666" y="286" width="587" height="512" key="find.popup" timestamp="1591712605664">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="666" y="286" width="587" height="512" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1591712605664" />
     <state x="623" y="241" key="search.everywhere.popup" timestamp="1591708269289">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
