@@ -7,3 +7,8 @@ type SaveNote struct {
 type DeleteNote struct {
 	ID string `json:"id"`
 }
+
+type UpdateNote struct {
+	ID      string `json:"id"`
+	Content string `json:"content"`
+}

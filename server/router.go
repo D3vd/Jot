@@ -25,6 +25,7 @@ func NewRouter() *chi.Mux {
 
 		r.Get("/", n.GetAllNotes)
 		r.Put("/", n.SaveNote)
+		r.Post("/", n.UpdateNote)
 		r.Delete("/", n.DeleteNote)
 	})
 

@@ -10,9 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f22ffd9d-f6bd-4b73-bb16-f8e75c1902a6" name="Default Changelist" comment="Added Get All Notes from DB">
-      <change afterPath="$PROJECT_DIR$/controllers/notes/deleteNote.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongo/deleteNote.go" afterDir="false" />
+    <list default="true" id="f22ffd9d-f6bd-4b73-bb16-f8e75c1902a6" name="Default Changelist" comment="Added Delete Note Route">
+      <change afterPath="$PROJECT_DIR$/controllers/notes/updateNote.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongo/updateNote.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/requests.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/requests.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/router.go" afterDir="false" />
@@ -77,7 +77,8 @@
     <MESSAGE value="Added Save Note Route" />
     <MESSAGE value="Added Save Note to DB" />
     <MESSAGE value="Added Get All Notes from DB" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Get All Notes from DB" />
+    <MESSAGE value="Added Delete Note Route" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Delete Note Route" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
